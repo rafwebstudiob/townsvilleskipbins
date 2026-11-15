@@ -15,7 +15,7 @@
   gtag('js', new Date());
   gtag('config', 'G-PF54L7E9ZY');
 </script>
-<script>/*seo6-track*/(function(){var tok=null,done=null;try{tok=sessionStorage.getItem('rws_lead_token');done=sessionStorage.getItem('rws_lead_done');}catch(_){}if(tok?tok===done:done==='direct')return;gtag('event','generate_lead',{form_name:'skip_bin_quote',source:'townsvilleskipbins.com',lead_flow:tok?'form':'direct',transport_type:'beacon'});try{sessionStorage.setItem('rws_lead_done',tok||'direct');}catch(_){}})();</script>
+<script>/*rws-lead-v2*/(function(){var fired=false;function fire(){if(fired)return;if(typeof gtag!=='function'){if(document.readyState!=='complete')setTimeout(fire,50);return;}var tok=null,done=null,ref='',qid=false;try{tok=sessionStorage.getItem('rws_lead_token');done=sessionStorage.getItem('rws_lead_done');}catch(e){}ref=document.referrer||'';try{qid=/(?:^|[?&])lead=1(?:&|$)/.test(location.search);}catch(e){}var via=!!(qid||tok||/formsubmit[.]co/i.test(ref));if(tok&&tok===done)return;if(!via&&(done==='direct'||done==='redirect'))return;fired=true;var flow=tok?'form':(via?'redirect':'direct');gtag('event','generate_lead',{form_name:'skip_bin_quote',lead_source:'townsvilleskipbins.com',lead_flow:flow,page_referrer:ref,transport_type:'beacon',send_to:'G-PF54L7E9ZY'});try{sessionStorage.setItem('rws_lead_done',tok||(flow==='direct'?'direct':'redirect'));}catch(e){}}if(document.readyState==='complete')fire();else window.addEventListener('load',fire);})();</script>
 </head>
 <body>
 <a class="skip-link" href="#main">Skip to content</a>
